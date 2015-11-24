@@ -1,0 +1,8 @@
+*.pyc
+.idea
+env
+tmp
+*.log
+sand_trade
+results
+
