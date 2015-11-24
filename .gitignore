@@ -3,6 +3,4 @@
 env
 tmp
 *.log
-sand_trade
-results
-
+*.sh~
