@@ -5,3 +5,4 @@ tmp
 *.log
 *.sh~
 *.ipynb_checkpoints
+data
