@@ -1,3 +1,4 @@
+#!./env/bin/python
 """
 Usage: python remove_output.py notebook.ipynb [ > without_output.ipynb ]
 Modified from remove_output by:
@@ -17,15 +18,12 @@ def remove_outputs(nb):
 
 
 if __name__ == '__main__':
-    #BASEPATH = os.path.dirname(__file__)
     BASEPATH = os.getcwd()
-    print(BASEPATH)
     for fname in [f for f in os.listdir(BASEPATH) if f.endswith(".ipynb")]:
         print(fname)
         with io.open(fname, 'r') as f:
             nb = read(f, 4)
             remove_outputs(nb)
-            print(nb)
         with io.open(fname, 'w', encoding='utf8') as f:
             write(nb, f, 4)
             #print("wrote {0}".format(new_ipynb))
