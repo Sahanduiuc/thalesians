@@ -5,9 +5,10 @@ Repository for my material used for my Talk at Zurich
 
 Thanks for coming to my talk at Zurich. I hope you all enjoyed it. 
 
-To **browse** through my slides it is enough to open the *.ipynb files on Github, see https://github.com/tschm/thalesians. Github will parse them for you. You won't be able to repeat the computations and you won't get the fancy slideshow. You see the underlying notebooks only.
+To **browse** through my slides it is best to use the nbviewer, see http://nbviewer.jupyter.org/github/tschm/thalesians/tree/master/.
+Click on any *.ipynb file. You can browse the original slides by clicking on the gift symbol in the top row...
 
-To **reproduce** my results and slides you have to
+If you are brave you can **reproduce** my results and slides locally. You have to
 
 - clone this repository on your local computer, e.g. you need to install git and start the clone with
 ```
